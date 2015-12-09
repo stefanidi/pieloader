@@ -1,6 +1,6 @@
 from cgi import parse_qs, escape
 
-def wsgi_app(environ, start_response)
+def wsgi_app(environ, start_response):
     parameters = parse_qs(environ.get('QUERY_STRING', ''))
     if 'subject' in parameters:
         subject = escape(parameters['subject'][0])
