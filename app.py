@@ -1,3 +1,5 @@
+from cgi import parse_qs, escape
+
 def wsgi_app(environ, start_response):
     status = '200 OK'
     response_headers = [('Content-type', 'text/plain')]
