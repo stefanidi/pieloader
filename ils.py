@@ -2,7 +2,7 @@
  
 # (C) 2015 Roman Stefanidi
 # redirect data from a TCP/IP connection to a serial port and vice versa
-# requires Python 2.2 'cause socket.sendall is used
+# requires Python 2.2 'cause socket.sendall is used sdfdfdgffdg
  
  
 import sys
